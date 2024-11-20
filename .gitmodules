@@ -1,0 +1,6 @@
+[submodule "Net-Pinyin.Core/pinyin-data"]
+	path = Net-Pinyin.Core/pinyin-data
+	url = https://github.com/mozillazg/pinyin-data.git
+[submodule "Net-Pinyin.Core/phrase-pinyin-data"]
+	path = Net-Pinyin.Core/phrase-pinyin-data
+	url = https://github.com/mozillazg/phrase-pinyin-data.git
