@@ -5,8 +5,8 @@
     <RootNamespace>Net_Pinyin.Core</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<Version>0.0.1</Version>
-	<Authors>HUANG.Hao</Authors>
+	<Version>1.0.1</Version>
+	<Authors>SaderickHUANG</Authors>
 	<GenerateDocumentationFile>False</GenerateDocumentationFile>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>NetPinyin</Title>
@@ -16,6 +16,10 @@
 	<RepositoryType>git</RepositoryType>
 	<AssemblyVersion>1.0.0</AssemblyVersion>
 	<FileVersion>1.0.0</FileVersion>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<Company>SaderickHUANG</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -34,6 +38,13 @@
     <Content Include="pinyin-data\pinyin.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
