@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Pinyin", "Net-Pinyin.Core\Net-Pinyin.csproj", "{7684D94E-576A-4269-AF19-24D556045744}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Pinyin.Test", "Net-Pinyin.Test\Net-Pinyin.Test.csproj", "{1C56EED7-76A2-4D8F-B869-DE32C43FC8D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7684D94E-576A-4269-AF19-24D556045744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7684D94E-576A-4269-AF19-24D556045744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7684D94E-576A-4269-AF19-24D556045744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7684D94E-576A-4269-AF19-24D556045744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C56EED7-76A2-4D8F-B869-DE32C43FC8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C56EED7-76A2-4D8F-B869-DE32C43FC8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C56EED7-76A2-4D8F-B869-DE32C43FC8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C56EED7-76A2-4D8F-B869-DE32C43FC8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B394F65-A459-493C-AF86-73D4DEBF439B}
+	EndGlobalSection
+EndGlobal
